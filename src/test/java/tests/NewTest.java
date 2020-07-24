@@ -18,10 +18,12 @@ public class NewTest {
   }
   @BeforeMethod
   public void beforeMethod() {
+	  System.out.println("xxxxxx");
   }
 
   @AfterMethod
   public void afterMethod() {
+	  System.out.println("yyyyy");
   }
 
 
