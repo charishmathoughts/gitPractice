@@ -14,6 +14,7 @@ import org.testng.annotations.AfterSuite;
 public class NewTest {
   @Test(dataProvider = "dp")
   public void f(Integer n, String s) {
+	  System.out.println("learning git going to push by committing"); 
   }
   @BeforeMethod
   public void beforeMethod() {
