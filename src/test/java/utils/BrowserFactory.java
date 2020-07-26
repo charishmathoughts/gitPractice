@@ -9,7 +9,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserFactory 
 {
-	public static WebDriver startApplication(WebDriver driver, String BrowserName, String URL)
+	public static WebDriver driver = null;
+	public static  WebDriver startApplication( String BrowserName, String URL)
 	{
 		if (BrowserName.equalsIgnoreCase("chrome"))
 		{
@@ -32,6 +33,7 @@ public class BrowserFactory
 		}
 		driver.manage().window().maximize();
 		driver.get(URL);
+		//return driver;
 		return driver;
 	}
 	

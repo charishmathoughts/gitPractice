@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13479" started-at="2020-07-26T07:48:06Z" finished-at="2020-07-26T07:48:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13479" started-at="2020-07-26T07:48:06Z" finished-at="2020-07-26T07:48:20Z">
+      <class name="tests.MainTest1Test">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:tests.MainTest1Test@13a57a3b]" name="launchbrowser" is-config="true" duration-ms="11455" started-at="2020-07-26T13:18:06Z" finished-at="2020-07-26T13:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:tests.MainTest1Test@13a57a3b]" name="logintest" duration-ms="1041" started-at="2020-07-26T13:18:17Z" finished-at="2020-07-26T13:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="quitb()[pri:0, instance:tests.MainTest1Test@13a57a3b]" name="quitb" is-config="true" duration-ms="963" started-at="2020-07-26T13:18:19Z" finished-at="2020-07-26T13:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitb -->
+      </class> <!-- tests.MainTest1Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

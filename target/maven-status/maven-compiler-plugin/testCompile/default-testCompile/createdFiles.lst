@@ -1,0 +1,5 @@
+tests\MainTest1Test.class
+utils\ConfigReader.class
+pages\selectProduct.class
+pages\Login.class
+utils\BrowserFactory.class
